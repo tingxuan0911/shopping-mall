@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bookstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/購物車.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand mx-5" href="#">
+                        <img style="height: 60px;" src="./img/首頁-logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-inline-block justify-content-end"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 h6 d-none d-lg-flex ">
+                            <button type="button" class="btn btn-outline-light"></button>
+                            <li class="nav-item me-4">
+                                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                            </li></button>
+                            <li class="nav-item me-4">
+                                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link active" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link active p-0" aria-current="page" href="#">
+                                    <i class="bi bi-cart-fill h3 "></i>
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link p-0 pe-4" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-person-circle h3"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Login</a></li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="banner bg-secondary d-flex justify-content-center align-items-center py-5"
+            style="--bs-bg-opacity: .5;">
+            <div class="bg-white rounded-3 p-5" style="width:90%;--bs-bg-opacity: .9;">
+                <div class="header border-bottom">
+                    <h1>購物車</h1>
+                    <div class="bookstrap px-5">
+                        <div class="d-flex justify-content-between align-items-center my-4">
+                            <p class="text-white m-0 rounded-circle bg-success text-center fs-4 pt-2"
+                                style="width: 50px; height: 50px;">1
+                            </p>
+                            <div class="progress" style="width: 50px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                            <p class="text-white m-0 rounded-circle bg-success text-center fs-4 pt-2"
+                                style="width: 50px; height: 50px;">
+                                2</p>
+                            <div class="progress " style="width: 50px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width:100%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                            <p class="m-0 rounded-circle bg-success text-white text-center fs-4 pt-2"
+                                style="width: 50px; height: 50px;">
+                                3</p>
+                            <div class="progress" style="width: 50px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                            <p class="m-0 rounded-circle bg-success text-white text-center fs-4 pt-2"
+                                style="width: 50px; height: 50px;">
+                                4</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between px-5">
+                        <p>確認購物車</p>
+                        <p>付款與運送方式</p>
+                        <p>填寫資料</p>
+                        <p>完成訂購</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <h2 class="fs-1 text-center fw-bolder my-3">訂單成立</h2>
+                    <p class="fs-3">訂單明細</p>
+                    <div class="d-flex justify-content-between align-items-center px-5 py-3 border-bottom">
+                        <div class="d-flex align-items-center">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://media.zenfs.com/en/petsmao_nownews_707/147a10d062be26a23e5d8b13b48e91fe"
+                                alt="">
+                            <div class="ms-3">
+                                <p class="m-0">aughlg</p>
+                                <p class="m-0">#52135</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <p class="m-0">x1</p>
+                            </div>
+                            <p class="m-0 ms-5">$10.50</p>
+                        </div>
+                    </div>
+                    <div class=" d-flex justify-content-between align-items-center px-5 py-3 border-bottom">
+                        <div class="d-flex align-items-center">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://media.nownews.com/nn_media/thumbnail/2022/05/1651631682357-e7af77af9d7e462eb698473de6a0f49f-800x497.jpg"
+                                alt="">
+                            <div class="ms-3">
+                                <p class="m-0">aughlg</p>
+                                <p class="m-0">#52135</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <p class="m-0">x1</p>
+                            </div>
+                            <p class="m-0 ms-5">$10.50</p>
+                        </div>
+                    </div>
+                    <div class=" d-flex justify-content-between align-items-center px-5 py-3 border-bottom">
+                        <div class="d-flex align-items-center">
+
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYJwX4C-txn2R-TyDxIEl1D7F4_NVC1N4BGC0QwmgEZj1Jr4hjJ3Fx61BSuYaansRlU_s&usqp=CAU"
+                                alt="">
+                            <div class="ms-3">
+                                <p class="m-0">aughlg</p>
+                                <p class="m-0">#52135</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <p class="m-0">x1</p>
+                            </div>
+                            <p class="m-0 ms-5">$10.50</p>
+                        </div>
+                    </div>
+                    <p class="fs-4 mt-4">寄送資料</p>
+                    <p class="fs-4 mx-3 mt-4">姓名 : 王曉明</p>
+                    <p class="fs-4 mx-3 mt-4">電話 : 0912345678</p>
+                    <p class="fs-4 mx-3 mt-4">Email : abc123@gmail.com</p>
+                    <p class="fs-4 mx-3 mt-4 border-bottom">地址 : 409 台中市小鎮村英雄路1號</p>
+
+                    <div class="footer">
+                        <div class="calc mt-4 d-flex justify-content-end border-bottom pb-3">
+                            <div class="left me-5 text-secondary">
+                                <p class="m-0 mb-2">數量:</p>
+                                <p class="m-0 mb-2">小計:</p>
+                                <p class="m-0 mb-2">運費:</p>
+                                <p class="m-0 mb-2">總計:</p>
+                            </div>
+                            <div class="right ms-5 fw-bolder">
+                                <p class="m-0 mb-2 text-end">3</p>
+                                <p class="m-0 mb-2">$24.90</p>
+                                <p class="m-0 mb-2">$24.90</p>
+                                <p class="m-0 mb-2">$24.90</p>
+                            </div>
+                        </div>
+                        <div class="step mt-3 d-flex justify-content-between align-items-center">
+                            <div class="d-flex">
+                                <i class="bi bi-arrow-left-short"></i>
+                                <p class="m-0">返回購物</p>
+                            </div>
+                            <a style="height: 45px;width: 120px;" class="btn btn-primary" href="#" role="button">下一步</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="mt-5 p-5">
+        <section id="footer-row"></section>
+        <div class="d-md-flex justify-content-between">
+            <div class="footer-logo mt-5 m-md-0">
+                <div class="logo mb-2 d-flex justify-content-center align-items-center">
+                    <svg style="width:40px;" class="text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #162446;
+                                }
+
+                                .cls-2 {
+                                    fill: #fff;
+                                }
+                            </style>
+                        </defs>
+                        <title>資產 2</title>
+                        <g id="圖層_2" data-name="圖層 2">
+                            <g id="圖層_1-2" data-name="圖層 1">
+                                <circle class="cls-1" cx="20" cy="20" r="20"></circle>
+                                <path class="cls-2"
+                                    d="M20,7l7.13,4.11a7.91,7.91,0,0,1,3.95,6.84v6.8l-8.61-5V18.32l7.37,4.26V18.63a7.89,7.89,0,0,0-3.95-6.85L21.28,9.1V33.25L9,26.14V13.35l5.89,3.4a7.91,7.91,0,0,1,3.95,6.85v4.76l-1.23-.71V24.31a7.92,7.92,0,0,0-4-6.85l-3.42-2v9.94L20,31.11Z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                    <p class="m-0 ms-3" style="font-size: 20px;">數位方塊</p>
+                </div>
+                <p class="text-center text-secondary fs-6">Air plant banjo lyft occupy retro <br>adaptogen indego</p>
+            </div>
+            <div class="row ">
+                <div class="col-12 col-md-6 col-xl-3 text-center px-4 mb-5">
+                    <h5 class="mb-3">CATEGIRIES</h5>
+                    <p class="mb-1">First Link</p>
+                    <p class="mb-1">Second Link</p>
+                    <p class="mb-1">Third Link</p>
+                    <p class="mb-1">Fourth Link</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 text-center px-4 mb-5">
+                    <h5 class="mb-3">CATEGIRIES</h5>
+                    <p class="mb-1">First Link</p>
+                    <p class="mb-1">Second Link</p>
+                    <p class="mb-1">Third Link</p>
+                    <p class="mb-1">Fourth Link</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 text-center px-4 mb-5">
+                    <h5 class="mb-3">CATEGIRIES</h5>
+                    <p class="mb-1">First Link</p>
+                    <p class="mb-1">Second Link</p>
+                    <p class="mb-1">Third Link</p>
+                    <p class="mb-1">Fourth Link</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 text-center px-4 mb-5">
+                    <h5 class="mb-3">CATEGIRIES</h5>
+                    <p class="mb-1">First Link</p>
+                    <p class="mb-1">Second Link</p>
+                    <p class="mb-1">Third Link</p>
+                    <p class="mb-1">Fourth Link</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section id="footer-bar ">
+        <div class="bg-secondary p-4 d-flex justify-content-between align-items-center" style="--bs-bg-opacity: .2;">
+            <p class="m-0 px-5">© 2020 Tailblocks — @knyttneve</p>
+            <div class="media pe-5">
+                <svg style="width: 20px;" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" class="m-1 text-secondary w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+                <svg style="width: 20px;" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" class="m-1 text-secondary w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                    </path>
+                </svg>
+                <svg style="width: 20px;" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="m-1 text-secondary w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+                <svg style="width: 20px;" fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="0" class="m-1 text-secondary w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none"
+                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- bookstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
